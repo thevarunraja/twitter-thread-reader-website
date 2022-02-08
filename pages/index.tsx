@@ -12,19 +12,19 @@ const Home: NextPage = () => {
         <title>Twitter Thread Reader - Chrome Extension</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="mt-6">
+      <div className="mt-6 md:text-lg">
         <div>
           <Header />
           <div className="mt-6">
             <div>Easily read twitter threads like a blog or an article.</div>
-            <div className="mt-2">
+            <div className="mt-3">
               Unroll the thread by clicking on a button and read thread without
               navigating to a different site.
             </div>
-            <div className="mt-2">
+            <div className="mt-3">
               Privacy friendly. All the compute happens on your device.
             </div>
-            <div className="mt-3">
+            <div className="mt-4">
               <a href="https://chrome.google.com/webstore/detail/twitter-thread-reader/cbkbehonmkldgmpdpaigonchnngpbnlm">
                 <img
                   src="./chrome-web-store.png"

@@ -15,7 +15,7 @@ export default function privacy() {
         <Separator />
         <div className="mt-6">
           <h1 className="text-base underline">Privacy Policy</h1>
-          <div className="mt-5 text-sm">
+          <div className="mt-5 text-sm md:text-base">
             <div>
               <ul className="list-disc">
                 Twitter thread reader extension does not collect any data of any
@@ -33,7 +33,7 @@ export default function privacy() {
           </div>
         </div>
         <Separator />
-        <div className="text-sm">
+        <div className="text-sm md:text-base">
           <Footer />
         </div>
         <Separator />
