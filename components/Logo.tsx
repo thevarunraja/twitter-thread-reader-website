@@ -1,5 +1,4 @@
 import { SVGProps } from "react";
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const Logo = (props: SVGProps<SVGSVGElement>) => (
   <svg
@@ -17,13 +16,5 @@ const Logo = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default function Title() {
-  return (
-    <div className="flex items-center">
-      <Logo width={40} height={40}></Logo>
-      <div className="ml-2 text-xl font-bold sm:text-2xl">
-        Twitter Thread Reader
-      </div>
-    </div>
-  );
-}
+
+export default Logo;

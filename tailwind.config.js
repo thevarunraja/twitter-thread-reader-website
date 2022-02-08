@@ -5,7 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./icons/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "class",
+  darkMode: "media",
   plugins: [],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        background: "#202020",
+      },
+    },
+  },
 };
