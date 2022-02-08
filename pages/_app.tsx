@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="h-screen overflow-auto dark:bg-background dark:text-white">
+    <div className="dark:text-white">
       <div className=" m-auto max-w-2xl px-6 pt-6 pb-12 tracking-wide  sm:pt-12">
         <Component {...pageProps} />
       </div>

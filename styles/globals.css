@@ -23,3 +23,9 @@ body {
   width: 100%;
   position: absolute;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #202020;
+  }
+}
