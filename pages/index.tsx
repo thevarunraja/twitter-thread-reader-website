@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Twitter Thread Reader - Chrome Extension</title>
+        <title>Twitter Thread Reader - Browser Extension</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="mt-6 md:text-lg">
@@ -17,14 +17,14 @@ const Home: NextPage = () => {
           <Header />
           <div className="mt-6">
             <div>Easily read twitter threads like a blog or an article.</div>
-            <div className="mt-3">
+            <div className="mt-4">
               Unroll the thread by clicking on a button and read thread without
               navigating to a different site.
             </div>
-            <div className="mt-3">
+            <div className="mt-4">
               Privacy friendly. All the compute happens on your device.
             </div>
-            <div className="mt-4">
+            <div className="mt-6">
               <a href="https://chrome.google.com/webstore/detail/twitter-thread-reader/cbkbehonmkldgmpdpaigonchnngpbnlm">
                 <img
                   src="./chrome-web-store.png"
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube-nocookie.com/embed/tyYaifhY4UE"
+                src="https://www.youtube-nocookie.com/embed/tyYaifhY4UE?rel=0"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

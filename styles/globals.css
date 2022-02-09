@@ -25,7 +25,12 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
+  html {
+    background: #232526;
+  }
+
   body {
-    background: #202020;
+    background: #232526;
+    background: linear-gradient(to right, #232526, #2d2d2e);
   }
 }
