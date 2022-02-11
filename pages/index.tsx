@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from "next";
 import Head from "next/head";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Separator from "../components/Separator";
@@ -48,17 +50,12 @@ const Home: NextPage = () => {
             Checkout the demo(15 sec).
           </div>
           <div className="mt-6">
-            <div className="video-responsive">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube-nocookie.com/embed/tyYaifhY4UE?rel=0"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+            <LiteYouTubeEmbed
+              id="tyYaifhY4UE"
+              title={""}
+              poster="hqdefault"
+              thumbnail={""}
+            />
           </div>
         </div>
         <Separator />

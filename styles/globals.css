@@ -35,3 +35,7 @@ body {
     background: linear-gradient(to top, #171717, #121212);
   }
 }
+
+.yt-lite:before {
+  background-image: none !important;
+}
