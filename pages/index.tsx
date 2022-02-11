@@ -27,7 +27,10 @@ const Home: NextPage = () => {
               Privacy friendly. All the compute happens on your device.
             </div>
             <div className="mt-6">
-              <a href="https://chrome.google.com/webstore/detail/twitter-thread-reader/cbkbehonmkldgmpdpaigonchnngpbnlm">
+              <a
+                className="inline-block"
+                href="https://chrome.google.com/webstore/detail/twitter-thread-reader/cbkbehonmkldgmpdpaigonchnngpbnlm"
+              >
                 <img
                   src="./chrome-web-store.png"
                   alt="Available in the Chrome Web Store"
