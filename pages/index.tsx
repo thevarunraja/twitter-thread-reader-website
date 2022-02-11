@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             </div>
             <div className="mt-6">
               <a
-                className="inline-block"
+                className="z-10 inline-block"
                 href="https://chrome.google.com/webstore/detail/twitter-thread-reader/cbkbehonmkldgmpdpaigonchnngpbnlm"
               >
                 <img
