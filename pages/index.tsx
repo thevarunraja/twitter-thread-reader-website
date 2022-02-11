@@ -30,6 +30,7 @@ const Home: NextPage = () => {
                   src="./chrome-web-store.png"
                   alt="Available in the Chrome Web Store"
                   width={200}
+                  height={60}
                 />
               </a>
             </div>
