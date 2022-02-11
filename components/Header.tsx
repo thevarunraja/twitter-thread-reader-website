@@ -13,7 +13,7 @@ export default function Header() {
       </div>
       <div className="ml-3 sm:ml-4">
         <div
-          className="absolute top-1/4 left-1/3 hidden h-32 w-32 dark:block"
+          className="pointer-events-none absolute top-1/4 left-1/3 hidden h-32 w-32 dark:block"
           style={{
             filter: "blur(150px)",
             background:

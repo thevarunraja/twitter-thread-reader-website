@@ -27,6 +27,24 @@ const Home: NextPage = () => {
               Privacy friendly. All the compute happens on your device.
             </div>
             <div className="mt-6">
+              <img
+                src="./down-emoji.png"
+                alt="Backhand Index Pointing Down"
+                width="26"
+                height="26"
+                className="inline-block"
+              />
+              <span>
+                <a
+                  className="text-blue-700 dark:text-blue-500"
+                  href="https://chrome.google.com/webstore/detail/twitter-thread-reader/cbkbehonmkldgmpdpaigonchnngpbnlm"
+                >
+                  Download
+                </a>{" "}
+                by click on the below button
+              </span>
+            </div>
+            <div className="mt-3">
               <a
                 className="z-10 inline-block"
                 href="https://chrome.google.com/webstore/detail/twitter-thread-reader/cbkbehonmkldgmpdpaigonchnngpbnlm"
