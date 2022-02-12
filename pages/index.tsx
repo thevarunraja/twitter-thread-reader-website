@@ -68,14 +68,15 @@ const Home: NextPage = () => {
               width="26"
               height="26"
             />
-            Checkout the demo(15 sec).
+            Checkout the demo(26 sec).
           </div>
           <div className="mt-6">
             <LiteYouTubeEmbed
-              id="tyYaifhY4UE"
+              id="tHh_d2IR8tk"
               title={""}
-              poster="hqdefault"
+              poster="maxresdefault"
               thumbnail={""}
+              iframeClass="test-iframe"
             />
           </div>
         </div>

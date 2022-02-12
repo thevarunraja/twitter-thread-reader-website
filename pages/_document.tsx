@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://threadreader.thevarunraja.com/og-image.jpg"
+            content="https://threadreader.thevarunraja.com/image-og.jpg"
           />
           <meta property="twitter:card" content="summary_large_image" />
           <meta
